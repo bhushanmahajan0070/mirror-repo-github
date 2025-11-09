@@ -72,14 +72,15 @@ git push -u origin main
 
 ---
 
-## 🧩 Step 6 — Push Code from Local Machine
+## 🧩 Final Verification (3 Steps)
 
-Initialize and push your project files (`README.md`, `index.html`, etc.) to your GitLab repository.
+### 🧩 Step 6 — Push Code from Local Machine (verification)
+Push output confirming the push to GitLab.
 
 📸 **Screenshot:**  
 ![Git Push Verification](images/push.png)
 
-**Commands Used:**
+**Commands used:**
 ```bash
 git status -s
 git add .
