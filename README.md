@@ -34,7 +34,7 @@ This project demonstrates how to **create a mirrored repository between GitLab a
 5. Click **Create Repository**
 
 📸 **Screenshot:**  
-![GitHub Create Repo](images/Screenshot-2025-11-09-103739.png)
+![GitHub Create Repo](images/mirror-repo-github.png)
 
 ---
 
@@ -48,7 +48,7 @@ This project demonstrates how to **create a mirrored repository between GitLab a
 7. Click **Mirror Repository**
 
 📸 **Screenshot:**  
-![GitLab Mirror Settings](images/Screenshot-2025-11-09-104113.png)
+![GitLab Mirror Settings](images/configure.png)
 
 ---
 
@@ -57,7 +57,7 @@ From your GitHub repository:
 - Click the **Code** button → Copy the HTTPS URL
 
 📸 **Screenshot:**  
-![GitHub HTTPS URL](images/Screenshot-2025-11-09-104121.png)
+![GitHub HTTPS URL](images/github-repo.png)
 
 ---
 
