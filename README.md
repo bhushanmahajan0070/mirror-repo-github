@@ -69,20 +69,3 @@ git status -s
 git add .
 git commit -m "hi"
 git push -u origin main
-
----
-
-## 🧩 Final Verification (3 Steps)
-
-### 🧩 Step 6 — Push Code from Local Machine (verification)
-Push output confirming the push to GitLab.
-
-📸 **Screenshot:**  
-![Git Push Verification](images/push.png)
-
-**Commands used:**
-```bash
-git status -s
-git add .
-git commit -m "hi"
-git push -u origin main
