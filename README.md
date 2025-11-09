@@ -70,6 +70,62 @@ git add .
 git commit -m "hi"
 git push -u origin main
 
-📸 **Screenshot:**  
-![GitHub HTTPS URL](images/push.png)
 
+# 🪞 GitLab → GitHub Repository Mirroring Verification
+
+This documentation verifies that the **GitLab → GitHub mirror setup** works successfully.  
+All screenshots below confirm that files pushed from GitLab are reflected automatically on GitHub.
+
+---
+
+## 🧩 Step 6 — Verify on GitHub
+
+After pushing your commits to GitLab, check your **GitHub repository** to confirm that the files and commits have synced automatically.
+
+📸 **Screenshot:**  
+![GitHub Mirror Result](images/push.png)
+
+**Details:**
+- Repository: `mirror-repo-github`
+- Branch: `main`
+- Files synced:  
+  - `README.md`  
+  - `index.html`
+- Commit message: `hi`
+
+✅ The files from GitLab appeared successfully in the GitHub repository.
+
+---
+
+## 🧩 Step 7 — Verify on GitLab
+
+Check your GitLab repository to ensure the same files and commits are present.
+
+📸 **Screenshot:**  
+![GitLab Result](images/Screenshot-2025-11-09-104431.png)
+
+**Details:**
+- Repository: `Mirror-repo-gitlab`
+- Branch: `main`
+- Files:  
+  - `README.md`  
+  - `index.html`
+- Commit message: `hi`
+
+✅ The GitLab project shows identical structure and commit details.
+
+---
+
+## 🧩 Step 8 — Git CLI Confirmation
+
+Below is the Git command output showing how the commit and push were done successfully from the local environment.
+
+📸 **Screenshot:**  
+![Git CLI Push](images/Screenshot-2025-11-09-104408.png)
+
+**Commands used:**
+```bash
+git status -s
+git add .
+git commit -m "hi"
+git push -u origin main
