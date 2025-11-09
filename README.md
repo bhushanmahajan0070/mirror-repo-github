@@ -73,14 +73,14 @@ git push -u origin main
 
 # 🪞 GitLab → GitHub Repository Mirroring Verification
 
-This documentation verifies that the **GitLab → GitHub mirror setup** works successfully.  
-All screenshots below confirm that files pushed from GitLab are reflected automatically on GitHub.
+This documentation verifies that the **GitLab to GitHub repository mirroring** setup works successfully.  
+All screenshots below confirm that files pushed from **GitLab** are automatically reflected in the **GitHub** repository.
 
 ---
 
 ## 🧩 Step 6 — Verify on GitHub
 
-After pushing your commits to GitLab, check your **GitHub repository** to confirm that the files and commits have synced automatically.
+After pushing your commits to GitLab, check your **GitHub repository** to ensure that the files and commits have been synchronized automatically.
 
 📸 **Screenshot:**  
 ![GitHub Mirror Result](images/push.png)
@@ -99,7 +99,7 @@ After pushing your commits to GitLab, check your **GitHub repository** to confir
 
 ## 🧩 Step 7 — Verify on GitLab
 
-Check your GitLab repository to ensure the same files and commits are present.
+Next, check your **GitLab repository** to confirm that the same files and commits are present.
 
 📸 **Screenshot:**  
 ![GitLab Result](images/Screenshot-2025-11-09-104431.png)
@@ -112,18 +112,18 @@ Check your GitLab repository to ensure the same files and commits are present.
   - `index.html`
 - Commit message: `hi`
 
-✅ The GitLab project shows identical structure and commit details.
+✅ The GitLab project shows an identical structure and commit history.
 
 ---
 
-## 🧩 Step 8 — Git CLI Confirmation
+## 🧩 Step 8 — Git Command-Line Confirmation
 
-Below is the Git command output showing how the commit and push were done successfully from the local environment.
+Below is the Git command output showing how the commit and push were executed successfully from the local environment.
 
 📸 **Screenshot:**  
 ![Git CLI Push](images/Screenshot-2025-11-09-104408.png)
 
-**Commands used:**
+**Commands Used:**
 ```bash
 git status -s
 git add .
