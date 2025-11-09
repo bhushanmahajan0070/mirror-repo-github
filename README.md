@@ -22,7 +22,7 @@ This project demonstrates how to **create a mirrored repository between GitLab a
 4. Click **Create Project**
 
 📸 **Screenshot:**  
-![GitLab Create Project](images/Github-repo.png)
+![GitLab Create Project](images/Gitlab-repo.png)
 
 ---
 
